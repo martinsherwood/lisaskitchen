@@ -1,0 +1,160 @@
+@charset "utf-8";
+@import url("meal_fonts.css");
+
+/*
+	food.css - food page styles
+*/
+
+.intro {
+	margin-bottom: 20px;
+}
+
+.meals {
+	width: 100%;
+	display: block;
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.set {
+	height: auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid hsla(0, 0%, 80%, 1);
+}
+
+.set h3 {
+	text-transform: uppercase;
+}
+
+.set:nth-of-type(1) h3 {
+	font-family: "TizaRegular", sans-serif;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.1em;
+}
+
+.set:nth-of-type(2) h3 {
+	font-family: "OrotundHeavy", sans-serif;
+	color: hsla(324, 100%, 46%, 1);
+	font-size: 1.5em;
+}
+
+.set:nth-of-type(3) h3 {
+	font-family: "UltraRegular", sans-serif;
+	color: hsla(358, 74%, 48%, 1);
+}
+
+.plus-pasta {
+	font-family: "Cabin", sans-serif;
+}
+
+.set:nth-of-type(4) h3 {
+	font-family: "ChineseRocksRgRegular", sans-serif;
+	color: hsla(224, 61%, 46%, 1);
+	font-size: 1.6em;
+}
+
+.set:nth-of-type(5) h3 {
+	font-family: "RockwellBold", sans-serif;
+	color: hsla(81, 86%, 30%, 1);
+	font-size: 1.5em;
+}
+
+.set:nth-of-type(6) h3 {
+	font-family: "LittleTroubleGirlBVRegular", sans-serif;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.7em;
+}
+
+.set:last-of-type {
+	border-bottom: none
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.details {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	margin-right: 10%;
+}
+
+.photo {
+	width: 40%;
+	display: inline-block;
+}
+
+.ingre {
+	margin-top: 10px;
+	font-size: 1.05em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: hsla(240, 0%, 51%, 1);
+}
+
+.details p:nth-of-type(2) {
+	margin-bottom: 10px;
+}
+
+.photo img {
+	max-width: 100%;
+	display: block;
+	border: 6px solid hsla(60, 100%, 99%, 1);
+}
+
+.aday {
+	max-width: 100%;
+	display: block;
+}
+
+/*Media queries
+-------------------------------------------------------------*/
+
+/*Retina*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+}
+
+/*Adjustments for tablet screens and narrower viewports*/
+@media screen and (max-width: 1040px) {
+	
+
+}
+
+@media only screen and (max-width: 620px) {
+	.set {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.details, .photo {
+		width: 100%;
+	}
+	
+	.aday, .photo img {
+		display: block;
+    	margin: 0 auto;
+	}
+	
+	.aday {
+		margin-bottom: 10px;
+	}
+	
+	.set:nth-of-type(1) h3, .set:nth-of-type(2) h3, .set:nth-of-type(3) h3, .set:nth-of-type(4) h3, .set:nth-of-type(4) h3, .set:nth-of-type(5) h3, .set:nth-of-type(5) h3, .set:nth-of-type(6) h3 {
+		font-family: 'Julius Sans One', CenturyGothic, AppleGothic, sans-serif;
+		color: hsla(0, 0%, 13%, 1);
+		font-size: 1.4em;
+	}
+	
+	.plus-pasta {
+		font-family: 'Julius Sans One', CenturyGothic, AppleGothic, sans-serif;
+	}
+
+}

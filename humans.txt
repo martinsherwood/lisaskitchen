@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+	Lisa Barnett -- Owner
+	Charlotte Spafford -- Original Hand Drawn Logo Design
+	Martin Sherwood -- Design & Development, Responsive Designs -- martin@lisaskitchen.co.uk
+	Martin Price -- Design, Final Logo Design
+
+# THANKS
+
+    Everyone else who gave input along the way.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, jQuery, Modernizr
+	
