@@ -6,7 +6,12 @@ Lisa's Kitchen website files
 To do:
 ------
 
-Navigation and header needs adjusting to accomodate more links/buttons
+Tidy up the main.css file and add all smaller files into it
+
+Take all CSS over to SASS
+
+Optimise all images
+
 
 
 
