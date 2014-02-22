@@ -25,7 +25,7 @@
             	
                 <?php include ("templates/header.php"); ?>
             	
-                <div role="contentinfo" class="prepay container clearfix">
+                <div role="contentinfo" class="parents-prepay container clearfix">
                 	<h1>Calling all parents!</h1>
                     <p>Are you worried about your child’s diet whilst they are at university? Lisa’s Kitchen provides students with healthy home cooked ready meals which contain 4 or 5 of your 5 a day. You can set a prepay account for your child to get a meal vouchers. It’s a great way to ensure your child is eating well, even if they aren’t under your roof! If you have any questions at all, please <a href="contact">get in touch</a>.</p>
                     

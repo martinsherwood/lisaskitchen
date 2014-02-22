@@ -36,7 +36,7 @@
                 <div class="order-welcome container clearfix">
                 	<h1>Create an order</h1>
                     <p>Welcome to our new ordering page, we've tried to make the process as simple and painless as possible. If you do have any questions or problems with or about an order, feel free to contact us and we'll get back to you as soon as we can. Thank you.</p>
-                    <p>All of our meals cost <span>&pound;2.79</span>, and currently we only offer a maximum quantity of <span>5</span> for each meal per order.</p>
+                    <p>All of our meals cost <span>&pound;3.59</span>, and currently we only offer a maximum quantity of <span>5</span> for each meal per order.</p>
                 </div>
                 
                 <?php
@@ -120,6 +120,8 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        
+        <script>$(".date-picker").datepicker({dateFormat:"dd/mm/yy"});</script>
         
         <?php include ("includes/analytics.php"); ?>
     </body>

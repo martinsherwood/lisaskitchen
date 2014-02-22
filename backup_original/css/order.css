@@ -1,0 +1,429 @@
+@charset "utf-8";
+@import url("http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css");
+@import url("meal_fonts.css");
+
+/*
+	order.css - ordering page CSS styles
+*/
+
+.order-welcome {
+	margin-bottom: 20px;
+}
+
+.order-welcome p:last-of-type {
+	margin-top: 10px;
+}
+
+.order-welcome span {
+	font-size: 1.1em;
+}
+
+.selection {
+	margin-bottom: 20px;
+}
+
+.choice {
+	width: 33.3%;
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.choice h3 {
+	text-transform: uppercase;
+	line-height: 40px;
+	margin: 0 0 5px 0;
+	border-bottom: 1px solid hsla(0, 0%, 80%, 1);
+}
+
+.choice:nth-of-type(1) h3 {
+	font-family: "TizaRegular", sans-serif;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.1em;
+}
+
+.choice:nth-of-type(2) h3 {
+	font-family: "OrotundHeavy", sans-serif;
+	color: hsla(324, 100%, 46%, 1);
+	font-size: 1.5em;
+}
+
+.choice:nth-of-type(3) h3 {
+	font-family: "UltraRegular", sans-serif;
+	color: hsla(358, 74%, 48%, 1);
+}
+
+.plus-pasta {
+	font-family: "Cabin", sans-serif;
+	vertical-align: top;
+}
+
+.choice:nth-of-type(4) h3 {
+	font-family: "ChineseRocksRgRegular", sans-serif;
+	color: hsla(224, 61%, 46%, 1);
+	font-size: 1.6em;
+}
+
+.choice:nth-of-type(5) h3 {
+	font-family: "RockwellBold", sans-serif;
+	color: hsla(81, 86%, 30%, 1);
+	font-size: 1.4em;
+}
+
+.choice:nth-of-type(6) h3 {
+	font-family: "LittleTroubleGirlBVRegular", sans-serif;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.7em;
+}
+
+.choice img {
+	margin: 5px 0 10px 0;
+	border: 6px solid hsla(60, 100%, 99%, 1);
+	width: 250px;
+	max-width: 100%;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.desc {
+	height: 80px;
+	margin-bottom: 10px;
+	text-overflow: ellipsis;
+	white-space: pre-wrap;
+	display: none;
+}
+
+.quantity {
+	position: relative;
+	color: hsla(0, 0%, 13%, 1);
+}
+
+.quantity input {
+	width: 50px;
+	text-align: center;
+}
+
+.delivery input, .location select, .personal input {
+	text-align: left;
+}
+
+.button {
+	position: absolute;
+	display: inline-block;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	margin-top: 6px;
+	text-align: center;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.minus {
+	margin-left: -90px;
+}
+
+.plus {
+	margin-left: 8px;
+}
+
+.button:hover {
+	color: hsla(240, 0%, 51%, 1);
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+    backface-visibility: hidden; 
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.order-form label {
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.4em;
+	font-weight: 600;
+	margin-right: 10px;
+	padding: 0;
+}
+
+.delivery {
+	position: relative;
+	display: block;
+	margin-bottom: 40px;
+	border-top: 1px solid hsla(0, 0%, 80%, 1);
+	padding-top: 20px;
+}
+
+.date {
+	margin-right: 10px;
+}
+
+.date input {
+	width: 180px;
+}
+
+.location {
+	margin-right: 10px;
+}
+
+.continue {
+	width: 24%;
+	display: block;
+	position: relative;
+	background: hsla(55, 91%, 57%, 1);
+	vertical-align: middle;
+	text-align: center;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.5em;
+	line-height: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.continue:hover {
+	background: hsla(0, 0%, 13%, 1);
+	color: hsla(60, 100%, 99%, 1);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.continued {
+	opacity: 0.8;
+	margin-bottom: 20px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+.personal {
+	margin-bottom: 20px;
+	border-top: 1px solid hsla(0, 0%, 80%, 1);
+	padding-top: 20px;
+	display: none; /*hide at start*/
+}
+
+.name, .snumber {
+	margin-right: 10px;
+}
+
+.confirm {
+	border-top: 1px solid hsla(0, 0%, 80%, 1);
+	padding-top: 20px;
+	margin-bottom: 40px;
+	display: none;
+}
+
+.confirm input {
+	width: 30%;
+	display: block;
+	position: relative;
+	border: none;
+	background: hsla(55, 91%, 57%, 1);
+	vertical-align: middle;
+	text-align: center;
+	color: hsla(0, 0%, 13%, 1);
+	font-size: 1.5em;
+	line-height: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.confirm input:hover {
+	background: hsla(0, 0%, 13%, 1);
+	color: hsla(60, 100%, 99%, 1);
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+
+.confirm p {
+	text-align: center;
+	font-size: 0.9em;
+	margin-bottom: 20px;
+}
+
+.all-zero, .blank-date, .no-name, .no-snumber {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+
+.no-name, .no-snumber {
+	padding-top: 10px;
+}
+
+/*global error styling in main.css*/
+
+.no-js .all-zero, .no-js .blank-date, .no-js .no-name, .no-js .no-snumber .no-js .error {
+	display: none;
+}
+
+/*after submit message*/
+.loading {
+	text-align: center;
+	color: hsla(0, 0%, 13%, 1);
+}
+
+.message {
+	text-align: center;
+}
+
+.message p {
+	margin-top: 10px;
+}
+
+.message i {
+	color: hsla(90, 55%, 47%, 1);
+}
+
+/*Media queries
+-------------------------------------------------------------*/
+
+/*Retina*/
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (   -moz-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	.vegetarian {
+		background: url("../img/vegetarian@2x.png");
+		background-size: 50px 50px;
+	}
+}
+
+/*Adjustments for tablet screens and narrower viewports*/
+@media screen and (max-width: 1040px) {
+	.selection .choice {
+		width: 50%;
+		display: block;
+	}
+	
+	.name label, .snumber label {
+		display: block;
+	}
+	
+	.name, .snumber {
+		float: none;
+		margin: 0 0 10px 0;
+	}
+	
+	.personal input {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.selection .choice {
+		width: 100%;
+		float: none;
+	}
+	
+	.order-welcome, .personal, .selection, .choice {
+		margin-bottom: 10px;
+	}
+	
+	.delivery input, .location select, .personal input {
+		width: 100%;
+		display: block;
+	}
+	
+	.date, .location, .continue, .name, .snumber {
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	
+	.date, .location {
+		margin: 0 0 10px 0;
+	}
+	
+	.continue {
+		width: 100%;
+	}
+	
+	.name, .snumber {
+		display: block;
+		margin: 0 0 10px 0;
+	}
+	
+	.delivery, .personal, .confirm {
+		padding-top: 10px;
+	}
+	
+	.confirm input {
+		width: 100%;
+		float: none;
+	}
+	
+	.confirm p {
+		margin-bottom: 10px;
+	}
+	
+	.choice:nth-of-type(1) h3, .choice:nth-of-type(2) h3, .choice:nth-of-type(3) h3, .choice:nth-of-type(4) h3, .choice:nth-of-type(4) h3, .choice:nth-of-type(5) h3, .choice:nth-of-type(5) h3, .choice:nth-of-type(6) h3 {
+		font-family: 'Julius Sans One', CenturyGothic, AppleGothic, sans-serif;
+		color: hsla(0, 0%, 13%, 1);
+		font-size: 1.4em;
+	}
+	
+	.plus-pasta {
+		font-family: 'Julius Sans One', CenturyGothic, AppleGothic, sans-serif;
+	}
+}

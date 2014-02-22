@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+	about.css - about page styles
+*/
+
+.first {
+	margin-bottom: 40px;
+}
+
+.first p {
+	margin-bottom: 20px;
+}
+
+.first section:nth-of-type(3) p:first-of-type, section:nth-of-type(4) p:first-of-type {
+	margin-bottom: 10px;
+}
+
+.mission {
+	font-style: oblique;
+}
+
+.ways-order span {
+	font-size: 1.05em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: hsla(240, 0%, 51%, 1);
+}
+
+.ways-order i {
+	margin: 0 10px;
+}
+
+.first section:nth-of-type(4) {
+	margin-bottom: 20px;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------*/
+
+/*Media queries
+-------------------------------------------------------------*/
+@media only screen and (max-width: 620px) {
+	.first p {
+		margin-bottom: 10px;
+	}
+}

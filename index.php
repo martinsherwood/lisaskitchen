@@ -66,12 +66,9 @@
                         <!--<img class="csoon" src="img/coming_soon@2x.png" alt="Our online ordering system will online soon!" title="Our online ordering system will online soon!" />-->
                     </div>
                     
-                    <div class="block float-left social">
-                    	<h2>Say hello</h2>
-                        <p>While you're here, feel free to say hello.</p>
-                        <a href="https://www.facebook.com/lisashomekitchen" target="_blank" title="Join us on Facebook"><i class="fa fa-facebook-square fa-lg"></i>Facebook</a>
-                        <a href="https://twitter.com/Lisas_Kitchen" target="_blank" title="Follow us on Twitter"><i class="fa fa-twitter-square fa-lg"></i>Twitter</a>
-                        <a href="mailto:info@lisaskitchen.co.uk?subject?Hello" title="Email us"><i class="fa fa-envelope fa-square fa-lg"></i>Email</a>
+                    <div class="block float-left placeholder">
+                    	<h2>Placeholder</h2>
+                        <!--whatever you want-->
                     </div>
                 </div>
 				
