@@ -64,7 +64,7 @@
                         <ul>
                         	<li>Vouchers cannot be duplicated.</li>
                             <li>Vouchers cannot be exchanged for any cash.</li>
-                            <li>Only voucher can be used per customer at once.</li>
+                            <li>Only vouchers can be used per customer at once.</li>
                         </ul>
                         <p>If you have any concerns about your meal or any of our products, please don't hesitate to <a href="contact">contact us</a> and we will work our hardest to accommodate any problems or answer any questions you have.</p>
                     </section>

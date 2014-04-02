@@ -31,10 +31,10 @@
                     
                     <h2>Our packages are as follows</h2>
                     <ol>
-                        <li>5 meals £12.50 (£2.50 per meal)</li>
-                        <li>10 meals £24 (£2.40 per meal)</li>
-                        <li>20 meals £46 (£2.30 per meal)</li>
-                        <li>50 meals £100 (£2.00 per meal)</li>
+                        <li>5 meals £17.45 (£3.49 per meal)</li>
+                        <li>10 meals £33.90 (£3.39 per meal)</li>
+                        <li>20 meals £65.80 (£3.29 per meal)</li>
+                        <li>50 meals £159.50 (£3.19 per meal)</li>
                     </ol>
                     
                     <h2>How it works</h2>
@@ -48,7 +48,7 @@
                         <li>Postal address of student (to drop off the vouchers)</li>
                     </ul>
 
-                    <p>We also offer a downloadable information pack containing all the information you should need.</p>
+                    <p>We also offer a downloadable information pack containing all the information you should need: <i class="fa fa-download"></i><a href="downloads/parents_prepay_info_pack.pdf" target="_blank">Download Information Pack</a>.</p>
                 </div>
                 
         	</div><!--/content-->

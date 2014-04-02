@@ -9,7 +9,7 @@
 }
 
 .first p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .first section:nth-of-type(3) p:first-of-type, section:nth-of-type(4) p:first-of-type {

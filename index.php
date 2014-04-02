@@ -67,7 +67,7 @@
                     </div>
                     
                     <div class="block float-left placeholder">
-                    	<h2>Placeholder</h2>
+                    	<!--<h2>Placeholder</h2>-->
                         <!--whatever you want-->
                     </div>
                 </div>

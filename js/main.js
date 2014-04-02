@@ -39,35 +39,35 @@ $(function(indexSlides) {
 //****************************************************************************
 $("input, textarea").placeholder();
 
-//Quantity selector buttons
+//Quantity selector buttons - needs work
 //****************************************************************************
 $(function(quantitySelect) {
 	$(".quantity").append("<i class=\"fa fa-plus fa-2x plus button no-select\"> </i><i class=\"fa fa-minus fa-2x minus button no-select\"></i>");
 	$(".button").on("click", function() {
 		
-	$(".all-zero").slideUp("slow"); //hide error if present
+		$(".all-zero").slideUp("slow"); //hide error if present
+		
+		//declare maximum quantity you want to allow
+		var maxVal = 5;
+		var $button = $(this);
+		var oldValue = $button.parent().find("input").val();
 	
-	//declare maximum quantity you want to allow
-	var maxVal = 5;
-    var $button = $(this);
-    var oldValue = $button.parent().find("input").val();
-
-    if ($button.text() == " ") { //blank space is important
-  		var newVal = parseFloat(oldValue) + 1;
-  	} else {
-		//don't allow below zero
-		if (oldValue > 0) {
-			var newVal = parseFloat(oldValue) - 1;
+		if ($button.text() == "") {
+			var newVal = parseFloat(oldValue) + ;
 		} else {
-			newVal = 0;
-    	}
-	}
-	//check if quantity has hit the max
-	if (newVal > maxVal) {
-		newVal = 5 //change this match var maxVal
-	}
-	  
-    $button.parent().find("input").val(newVal);
+			//don't allow below zero
+			if (oldValue > 0) {
+				var newVal = parseFloat(oldValue) - 1;
+			} else {
+				newVal = 0;
+			}
+		}
+		//check if quantity has hit the max
+		if (newVal > maxVal) {
+			newVal = 5 //change this match var maxVal
+		}
+		  
+		$button.parent().find("input").val(newVal);
 	
 	});
 	

@@ -5,9 +5,9 @@
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
 
 /*
-	main.css - contains global styles + index page styles
+	main.css
 	
-	This file needs a lot of tidying up!
+	This file needs a lot of tidying up! - will rewrite the whole lot sometime in the future.
 	
 */
 
@@ -283,10 +283,6 @@ h4 {
 	-ms-transform: all 0.30s ease-in-out;
 	-o-transition: all 0.30s ease-in-out;
 	transition: all 0.30s ease-in-out;
-}
-
-a#cc-notification-logo {
-	display: none !important;
 }
 
 /*Content and header styling starts here
@@ -777,7 +773,6 @@ a#cc-notification-logo {
 
 .site-footer .website {
 	font-size: 0.9em;
-	font-style: oblique;
 }
 
 /*Sitemap styles
@@ -797,8 +792,12 @@ a#cc-notification-logo {
 	margin-bottom: 40px;
 }
 
-.prepay > p {
+.parents-prepay > p {
 	margin-bottom: 10px;
+}
+
+.parents-prepay p:last-of-type i {
+	margin-right: 5px;
 }
 
 /*All golds page styles
@@ -836,6 +835,22 @@ a#cc-notification-logo {
 .golds-photo img:last-of-type {
 	margin-right: 0;
 }
+
+/*Varsity page styles
+-------------------------------------------------------------*/
+.varsity .vp1, .varsity .vp2, .varsity .vp3 {
+	margin-bottom: 16px;
+}
+
+.varsity .vars-logo {
+	width: 380px;
+	height: 302px;
+	display: inline-block;
+	vertical-align: middle;
+	background: transparent url("../img/varsity-logo.png") no-repeat 0 0;
+	background-size: 380px 302px;
+}
+
 
 /*Media queries
 -------------------------------------------------------------*/

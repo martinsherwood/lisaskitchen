@@ -29,12 +29,14 @@
                 <div role="contentinfo" class="first container clearfix">
                 	<section>
                         <h1>About</h1>
-                        <p>Our mission is to <span class="mission">“provide students with healthy home cooked frozen ready meals.”</span> We use real ingredients and all the meals are cooked in the same way you would at home, nothing is factory produced either! We offer a variety of meals, and all contain at least 4 or 5 of your 5 a day.</p>
+                        <p>Our slogan is <span class="mission">"Who doesn't like good food?"</span>. Our vision is that “We believe everyone should have access to healthy food that is of high quality, despite cooking ability or spare time. Supporting local businesses within Gloucestershire as well as charitable donations will lead to growth in the community. High levels of customer service will ensure continual growth of customer reach."</p>
+                        
+                        <p>We use real ingredients and all the meals are cooked in the same way you would at home, nothing is factory produced either! We offer a variety of meals, and all contain at least 4 or 5 of your 5 a day.</p>
 					</section>
                     
                     <section>
 						<h2>How we began</h2>
-                    	<p>In September 2012, Lisa started university at Gloucestershire studying Business Management. Pretty soon, Lisa realised that many people at the university, in halls and in houses didn’t cook dinner. This was either because they didn’t like cooking, the cost of meals were too expensive, time constraints or there was just no space for cooking. Time for a solution!</p>
+                    	<p>In September 2012, Lisa started university at Gloucestershire studying Business Management. Pretty soon, Lisa realised that many people at the university, in halls and in houses didn't cook dinner. This was either because they didn’t like cooking, the cost of meals were too expensive, time constraints or there was just no space for cooking. Time for a solution!</p>
                     </section>
                     
                     <section>
@@ -48,7 +50,7 @@
 						<p>We are based at University of Gloucestershire, and sell meals to people at the Park Campus (we plan to expand to the other campuses soon), you can also make an order online by going <a href="order">here</a>. Outlined below you'll find the different ways to order and buy our meals.</p>
                         <div class="ways-order">
                             <div class="one">
-                                <span>But at the SU</span>
+                                <span>Buy at the SU</span>
                                 <p>Pay at the SU<i class="fa fa-arrow-right"></i>Retain receipt<i class="fa fa-arrow-right"></i>Collect your meals at the Panini counter</p>
                             </div>
                             

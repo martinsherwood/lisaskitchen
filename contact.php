@@ -60,7 +60,7 @@
                 	<a href="https://twitter.com/Lisas_Kitchen" target="_blank" title="Follow us on Twitter">Twitter</a>
                     <a href="http://pinterest.com/lisasskitchen" target="_blank" title="Follow us on Pinterest">Pinterest</a>
                     <a href="http://www.linkedin.com/company/lisa's-kitchen" target="_blank" title="Connect with us on Linkedin">Linkedin</a>
-                    <p>Or if you'd you prefer just send us a message using the form below and we'll get back to you as soon as possible.</p>
+                    <p>Or if you'd prefer, just send us a message using the form below and we'll get back to you as soon as possible.</p>
                 </div>
                 
                 <div class="send-message container">
