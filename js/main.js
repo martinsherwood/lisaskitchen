@@ -39,7 +39,7 @@ $(function(indexSlides) {
 //****************************************************************************
 $("input, textarea").placeholder();
 
-//Quantity selector buttons - needs work
+//Quantity selector buttons
 //****************************************************************************
 $(function(quantitySelect) {
 	$(".quantity").append("<i class=\"fa fa-plus fa-2x plus button no-select\"> </i><i class=\"fa fa-minus fa-2x minus button no-select\"></i>");
@@ -52,8 +52,8 @@ $(function(quantitySelect) {
 		var $button = $(this);
 		var oldValue = $button.parent().find("input").val();
 	
-		if ($button.text() == "") {
-			var newVal = parseFloat(oldValue) + ;
+		if ($button.text() == " ") {
+			var newVal = parseFloat(oldValue) + 1;
 		} else {
 			//don't allow below zero
 			if (oldValue > 0) {
